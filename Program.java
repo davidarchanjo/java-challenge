@@ -33,8 +33,9 @@ class Program {
 			z = y + 1;
 		} while (z < array.length);
 
-		if (result.isEmpty())
+		if (result.isEmpty()) {
 			result.add(new Integer[] {});
+		}
 		return result;
 	}
 }
