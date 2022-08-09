@@ -15,7 +15,8 @@ class Program {
 					++y;
 					z = y + 1;
 				}
-				if (z >= array.length) break;
+				if (z >= array.length)
+					break;
 				var list = List.of(array[i], array[x], array[y], array[z]);
 				var sum = list.stream().reduce(0, Integer::sum);
 				if (sum == targetSum) {
@@ -32,7 +33,8 @@ class Program {
 			z = y + 1;
 		} while (z < array.length);
 
-		if (result.isEmpty()) result.add(new Integer[]{});
+		if (result.isEmpty())
+			result.add(new Integer[] {});
 		return result;
 	}
 }
