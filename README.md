@@ -1,3 +1,3 @@
 # java-challenge
 
-My code implementation for the challenge proposed in the https://github.com/ldiazssj3/Java-Challenge
+My implementation for the challenge proposed in https://github.com/ldiazssj3/Java-Challenge
